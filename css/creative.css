@@ -181,7 +181,7 @@ margin-top: 0px;
 }
  .slogan-content #slogan {
     position: absolute;
-    width: 1000px;
+    max-width: 1000px;
     height:70px;
     margin: 0px 450px;
     color: blue;
@@ -194,14 +194,15 @@ margin-top: 0px;
 }
 
 .header .flexslider {
-     width: 100%;
+     max-width: 100%;
      height: 250px;
      margin-top: 150px;
     }
 
 .header .flexslider .slides .text-slider {
+    max-width: 100%;
     margin: 0px;
-    font-size: 120px;
+    font-size: 100px;
     line-height: 250px;
     color: white;
     text-align: center;
@@ -218,8 +219,11 @@ margin-top: 0px;
     margin: 50px auto 0;
     max-width: 400px;
     height: 500px;
-    border: 2px solid #f0f0f0;
+    border: 10px solid #B0E0E6;
     background-color: #ffffff;
+    -webkit-animation-duration: 3s !important;
+  -webkit-animation-delay: .1s;
+  -webkit-animation-iteration-count: 1;
 }
 
 @media(min-width:992px) {
@@ -462,6 +466,7 @@ background-size: 1903px 854px;
     font-size: 25px !important;
 }
 .service-box-content {
+    margin-top: 50px;
     font-size: 20px;
     font-weight: bold;
     color: #B22222;
@@ -470,7 +475,7 @@ background-size: 1903px 854px;
 .service-box ul {
     list-style: none;
     padding: 0px;
-    margin: 20px;
+    margin: 70px;
 }
 
 .service-box ul li {
@@ -479,7 +484,7 @@ background-size: 1903px 854px;
     padding-bottom: 7px;
     border-bottom: 1px dashed #e0e0e0;
     }
-    .service-box:hover {
+    .service-box:hover { 
         color: white;
         background-color: #1E90FF;
     }
