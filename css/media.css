@@ -1,8 +1,9 @@
 @media only screen and (max-width: 768px) {
 
     .header {
+      margin-top: 50px;
      	width: 100%;
-     	height: 400px;
+     	height: 420px;
         background-color: black;
     }
 
@@ -28,8 +29,6 @@
     	margin-left: 5px;
     	margin-top: 20px;
     	font-size: 20px;
-
-
     }
 
     .header .flexslider {
@@ -41,10 +40,12 @@
    .header .flexslider .slides .text-slider {
 
    font-size: 20px;
-   margin-top: -75px;
+   margin-top: 0px;
    padding: 0px;
 
    }
+
+ 
 
 }
 
@@ -139,11 +140,13 @@
 
    .copyright {
    width: 100%;
-   margin-top: 20px;
+   margin-top: 10px auto;
    padding: auto;
    }
    .copyright .copyright-text {
+    text-align: center;
     font-size: 15px;
+
 
    }
     .social-media-icons {
@@ -181,15 +184,54 @@ height:360px;
 }
 
 .section-heading {
-    margin-top: -10px;
+    margin-top: -63px;
     font-size: 25px;
 }
 .text-faded {
     font-size: 15px;
 
 }
+.about-button {
+  font-size: 15px !important;
+}
+.service-title {
+  width: 100%;
+  margin: 0px auto;
+  font-size: 20px !important;
+
 
 }
+.contact {
+  width: 100%;
+  height:410px;
+}
 
+.contact-section {
+  width: 100%;
+  margin-top: -50px;
+  font-size: 25px;
+}
+.contact-content {
+  font-size: 18px;
+}
+.contact-number {
+
+font-size: 18px;
+}
+.contact-email {
+font-size: 18px;
+
+}
+.call-to-connection {
+    text-align: center;
+    max-width: 150px;
+    padding: .4vw;
+border: 2px solid white;
+font-family: Ramaraja;
+font-size: 1.3vw;
+text-shadow: 1px 1px 4px white;
+  }
+
+}
 
 
